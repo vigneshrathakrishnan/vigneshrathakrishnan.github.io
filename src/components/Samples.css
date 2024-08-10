@@ -1,0 +1,36 @@
+.code-container {
+    position: relative;
+    background-color: #000000;
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 600px;
+    max-height: 300px; /* Adjust the height as needed */
+    overflow: auto; /* Makes the code block scrollable */
+    margin-bottom: 20px;
+    color: white;
+}
+
+.code-container pre {
+    margin: 0;
+    font-family: monospace;
+    white-space: pre-wrap; /* Wrap long lines */
+}
+
+.copy-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.copy-btn:hover {
+    background-color: #000000;
+    color: white;
+}

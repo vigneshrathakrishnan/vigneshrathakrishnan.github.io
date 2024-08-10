@@ -1,0 +1,32 @@
+/* src/App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.content-area {
+  flex: 1;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  /* .sidebar {
+    display: none;
+  } */
+
+  /* .navbar-links {
+    display: none;
+    flex-direction: column;
+  } */
+
+  /* .navbar-links li {
+    margin: 5px 0;
+  } */
+}
