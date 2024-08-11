@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import Introduction from './components/Introduction';
 import GettingStarted from './components/GettingStarted';
+import Authentication from './components/Authentication';
 import Usage from './components/Usage';
 import Support from './components/Support';
 import Samples from './components/Samples';
@@ -17,6 +18,7 @@ const App = () => {
           <div className="content">
             <Introduction />
             <GettingStarted />
+            <Authentication />
             <Usage />
             <Samples />
             <Support />
