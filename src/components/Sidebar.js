@@ -30,6 +30,7 @@ const Sidebar = () => {
       <ul className="sidebar-links">
         <li><a href="#">Introduction</a></li>
         <li><a href="#getting-started">Getting Started</a></li>
+        <li><a href="#authentication">Authentication</a></li>
         <li><a href="#usage">Usage</a></li>
         <li><a href="#samples">Samples</a></li>
         <li><a href="#support">Support</a></li>
